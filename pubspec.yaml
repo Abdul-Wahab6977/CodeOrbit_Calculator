@@ -1,0 +1,25 @@
+name: calculator
+description: >
+  A production-ready, Material 3 calculator app with a clean, layered
+  architecture (UI / Controller / Utils) and Provider-based state management.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  # Lightweight state management: keeps the UI reactive without deeply
+  # nested setState calls, while the controller stays framework-agnostic.
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
